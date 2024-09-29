@@ -7,13 +7,15 @@ import { components } from './api/concept.ts'
 
 const queryClient = new QueryClient()
 
-const router = createBrowserRouter(components.map((c) => {
+const routes = components.map((c) => {
   return {
     path: c.route,
     element: <c.component />,
     id: c.name
   } as RouteObject
-}))
+})
+
+const router = createBrowserRouter(routes)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
