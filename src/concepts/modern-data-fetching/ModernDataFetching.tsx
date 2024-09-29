@@ -1,7 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
-
-const BASE_URL = "https://jsonplaceholder.typicode.com";
+import { BASE_URL } from "../../api/base";
 
 interface Post {
     id: number;

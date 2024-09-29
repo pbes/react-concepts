@@ -14,5 +14,6 @@ Open your browser and go to http://localhost:3000
 * Compound components
 * Modern data fetching
 * Path params
+* Combine React query & Zustand
 
 More to come...
