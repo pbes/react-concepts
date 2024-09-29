@@ -12,5 +12,6 @@ Open your browser and go to http://localhost:3000
 ## Concepts
 
 * Compound components
+* Modern data fetching
 
 More to come...

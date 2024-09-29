@@ -2,12 +2,18 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Concept } from './api/concept'
 import { CompoundComponents } from './concepts/compound-components/page/CompoundComponents'
+import { ModernDataFetching } from './concepts/modern-data-fetching/ModernDataFetching'
 
 const components: Concept[] = [
   {
     name: 'Compound components',
     route: 'compound-components',
     component: CompoundComponents
+  },
+  {
+    name: 'Modern data fetching',
+    route: 'modern-data-fetching',
+    component: ModernDataFetching
   }
 ]
 
