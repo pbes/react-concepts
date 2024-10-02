@@ -5,6 +5,7 @@ import App from "../App";
 import { PathParam } from "../concepts/path-param/page/PathParamPage";
 import { UserList } from "../concepts/combine-query-with-zustand/page/UserList";
 import WhyUseUseCallback from "../concepts/why-use-use-callback/WhyUseUseCallback";
+import ChildrenFirstApproach from "../concepts/children-first/ChildrenFirstApproach";
 
 export type Concept = {
   name: string;
@@ -39,5 +40,9 @@ export const components: Concept[] = [
     name: 'Why use useCallback in custom hooks',
     route: '/why-use-callback-in-custom-hooks',
     component: WhyUseUseCallback
+  }, {
+    name: 'Children first approach',
+    route: '/children-first',
+    component: ChildrenFirstApproach
   }
 ]
