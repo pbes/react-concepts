@@ -4,6 +4,7 @@ import { ModernDataFetching } from "../concepts/modern-data-fetching/ModernDataF
 import App from "../App";
 import { PathParam } from "../concepts/path-param/page/PathParamPage";
 import { UserList } from "../concepts/combine-query-with-zustand/page/UserList";
+import WhyUseUseCallback from "../concepts/why-use-use-callback/WhyUseUseCallback";
 
 export type Concept = {
   name: string;
@@ -34,5 +35,9 @@ export const components: Concept[] = [
     name: 'Combine React Query with Zustand',
     route: '/combine-query-with-zustand',
     component: UserList
+  }, {
+    name: 'Why use useCallback in custom hooks',
+    route: '/why-use-callback-in-custom-hooks',
+    component: WhyUseUseCallback
   }
 ]
