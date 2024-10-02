@@ -44,11 +44,13 @@ type ChildComponentProps = {
     name: string;
 }
 
-const ChildComponent = memo(({ func, name }: ChildComponentProps) => {
+const SimpleChildComponent = ({ func, name }: ChildComponentProps) => {
     console.log(`${name} children rendered`)
     return (
         <div>
             <button onClick={func}>Click me</button>
         </div>
     )
-})
+}
+
+const ChildComponent = memo(SimpleChildComponent)
