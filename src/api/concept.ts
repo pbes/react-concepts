@@ -6,6 +6,7 @@ import { PathParam } from "../concepts/path-param/page/PathParamPage";
 import { UserList } from "../concepts/combine-query-with-zustand/page/UserList";
 import WhyUseUseCallback from "../concepts/why-use-use-callback/WhyUseUseCallback";
 import ChildrenFirstApproach from "../concepts/children-first/ChildrenFirstApproach";
+import ZustandWithContext from "../concepts/zustand-with-context/ZustandWithContext";
 
 export type Concept = {
   name: string;
@@ -44,5 +45,9 @@ export const components: Concept[] = [
     name: 'Children first approach',
     route: '/children-first',
     component: ChildrenFirstApproach
+  }, {
+    name: 'Zustand with Context API',
+    route: '/zustand-with-context',
+    component: ZustandWithContext
   }
 ]
