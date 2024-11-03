@@ -7,6 +7,7 @@ import { UserList } from "../concepts/combine-query-with-zustand/page/UserList";
 import WhyUseUseCallback from "../concepts/why-use-use-callback/WhyUseUseCallback";
 import ChildrenFirstApproach from "../concepts/children-first/ChildrenFirstApproach";
 import ZustandWithContext from "../concepts/zustand-with-context/ZustandWithContext";
+import FeatureFlags from "../concepts/feature-flags/FeatureFlags";
 
 export type Concept = {
   name: string;
@@ -49,5 +50,9 @@ export const components: Concept[] = [
     name: 'Zustand with Context API',
     route: '/zustand-with-context',
     component: ZustandWithContext
+  }, {
+    name: 'Feature flags',
+    route: '/feature-flags',
+    component: FeatureFlags
   }
 ]
