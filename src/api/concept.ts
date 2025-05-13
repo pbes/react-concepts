@@ -8,6 +8,7 @@ import WhyUseUseCallback from "../concepts/why-use-use-callback/WhyUseUseCallbac
 import ChildrenFirstApproach from "../concepts/children-first/ChildrenFirstApproach";
 import ZustandWithContext from "../concepts/zustand-with-context/ZustandWithContext";
 import FeatureFlags from "../concepts/feature-flags/FeatureFlags";
+import ContextRerender from "../concepts/context-rerender/ContextRerender";
 
 export type Concept = {
   name: string;
@@ -54,5 +55,9 @@ export const components: Concept[] = [
     name: 'Feature flags',
     route: '/feature-flags',
     component: FeatureFlags
+  }, {
+    name: 'Context API: where to use it',
+    route: '/context-api-where-to-use-it',
+    component: ContextRerender
   }
 ]
